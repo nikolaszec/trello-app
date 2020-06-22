@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+       <div class="container">
+           <header class="header">
+              <img src="img/logo.png" alt="App logo" class="logo"/>
+              <form class="search">
+                  <input type="text" class="search__input" placeholder="Search hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+              </form>
+
+              <div class="user">
+                  <div class="icon-box">
+                    <svg class="icon-box__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="value">7</span>
+                  </div>
+                  <div class="icon-box">
+                    <svg class="icon-box__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="value">13</span>
+                  </div>
+                <div class="photo-box">
+                        <img src="img/user.jpg" alt="user" class="photo-box__photo">
+                        <span class="photo-box__username">Nikolas</span>
+                </div>
+              </div>
+      
+
+           </header>
+
+
+           <div class="content">
+               <nav class="sidebar">
+                   <ul class="navigation">
+                       <li class="navigation__item">
+                        <svg class="navigation__icon">
+                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                        </svg> 
+                        <a href="#" class="navigation__link">Hotel</a>
+                       </li>
+                       <li class="navigation__item">
+                            <svg class="navigation__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft"></use>
+                                </svg> 
+                        <a href="#" class="navigation__link">Flight</a>
+                    </li>
+                    <li class="navigation__item">
+                            <svg class="navigation__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg> 
+                        <a href="#" class="navigation__link">Car Rental</a>
+                    </li>
+                    <li class="navigation__item">
+                            <svg class="navigation__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg> 
+                        <a href="#" class="navigation__link">Tours</a>
+                    </li>
+                   </ul>
+            <div class="copyright">
+            <p class="copyright-text">
+        &copy; All rights reserved. 2019
+        </p>
+            </div>
+                
+               </nav>
+               <main class="hotel-view">
+                   <div class="gallery">
+                       <div class="gallery__box">
+                            <img src="img/hotel-1.jpg" alt="" class="gallery__image">
+                       </div>
+                       <div class="gallery__box">
+                            <img src="img/hotel-2.jpg" alt="" class="gallery__image">
+                       </div>
+                       <div class="gallery__box">
+                            <img src="img/hotel-3.jpg" alt="" class="gallery__image">
+                       </div>
+                   </div>
+                   <div class="hotel-details">
+                       <h1 class="hotel-details__title">Hotel Las Palmas</h1>
+                       <div class="review-box">
+                            <svg class="review__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg> 
+                                <svg class="review__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg> 
+                                    <svg class="review__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg> 
+                                        <svg class="review__icon">
+                                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                            </svg> 
+                                            <svg class="review__icon">
+                                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                                </svg> 
+                       </div>
+                       <div class="location">
+                            <svg class="location__icon">
+                                    <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                </svg> 
+                                <p class="location__name">Marbela,Spain</p>
+                       </div>
+                       <div class="score-box">
+                           <p class="score-box__score">8.6</p>
+                           <p class="score-box__votes">422 votes</p>
+                       </div>
+                   </div>
+                   <div class="hotel-content">
+                       <div class="hotel-content__about">
+                           <p class="info-text-1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                           </p>
+                           <p class="info-text-2">
+                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                           </p>
+                           <div class="details-box">
+                               <ul class="details">
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                                <li class="detail">Acommodation</li>
+                               
+                               </ul>
+                           </div>
+                           <div class="recommendation">
+                               <p class="recommendation__text">Lucy and 3 friend recommended this hotel.</p>
+                               <div class="recommendation__gallery">
+                                <img src="/img/user-1.jpg" alt="" class="recommendation__gallery-img">
+                                <img src="/img/user-2.jpg" alt="" class="recommendation__gallery-img">
+                                <img src="/img/user-3.jpg" alt="" class="recommendation__gallery-img">
+                                <img src="/img/user-4.jpg" alt="" class="recommendation__gallery-img">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="hotel-content__quotes">
+                           <div class="quote"><!--quote-->
+                               <p class="quote__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+
+                               </p>
+                               <div class="quote-box">
+                                   <img src="/img/user-5.jpg" alt="" class="quote-box__img">
+                                   <div class="quote-box__data">
+                                       <h3 class="quote-box__data-quoter">Nick Smith</h3>
+                                       <p class="quote-box__data-date">Feb 23rd,2019</p>
+                                   </div>
+                                   <p class="given-score">
+                                    7.8
+                                </p>
+                               </div>
+                             
+                           </div>
+                           <div class="quote"><!--quote-->
+                            <p class="quote__text">
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+
+                            </p>
+                            <div class="quote-box">
+                                <img src="/img/user-6.jpg" alt="" class="quote-box__img">
+                                <div class="quote-box__data">
+                                    <h3 class="quote-box__data-quoter">Jenny Aplex</h3>
+                                    <p class="quote-box__data-date">March 3rd,2019</p>
+                                </div>
+                                <p class="given-score">
+                                 9.8
+                             </p>
+                            </div>
+                          
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn">
+                                Show all &rAarr;
+                            </button>
+                        </div>
+                       
+                       </div>
+                      
+                   </div>
+                   <div class="booking-section">
+                    <h1 class="booking-section__info">
+                        Good news! We have 4 free rooms for your selected dates!
+                    </h1>
+                    <a href="#" class="booking-section__link">Book now</a>
+                </div>
+                   
+               </main>
+           </div>
+       </div>
+    </body>
+</html>
