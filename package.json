@@ -20,6 +20,7 @@
   "author": "Nikolas",
   "license": "ISC",
   "dependencies": {
+    "es-abstract": "^1.14.2",
     "serve": "^10.0.1"
   },
   "devDependencies": {
