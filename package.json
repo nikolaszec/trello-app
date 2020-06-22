@@ -2,7 +2,8 @@
   "name": "trillo",
   "version": "1.0.0",
   "engines": {
-    "node": "12.3.1"
+    "node": "12.3.1",
+    "npm": "6.13.7"
   },
   "description": "Trillo",
   "main": "index.js",
